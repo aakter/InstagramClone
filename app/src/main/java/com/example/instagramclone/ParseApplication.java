@@ -19,8 +19,10 @@ public class ParseApplication extends Application {
         // clientKey is not needed unless explicitly configure
         // any network interceptors must b added with the Configuration Builder given this
         Parse.initialize(new Parse.Configuration.Builder(this)
-                .applicationId("instagram_my")
-                .clientKey("CodepathMoveFastParse")
-                .server("https://instagram_my.herokuapp.com/parse/").build());
+                .applicationId("S0KDrDzcWDz7eMEcUz2XuYSDVNnCYZ8wcdlnbFev")
+                .clientKey("Mhuy81VImFQ4gy1NZdehprEuqcdWlRjQATCdcEPs")
+                .server("https://parseapi.back4app.com")
+                .build()
+        );
     }
 }
